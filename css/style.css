@@ -19,6 +19,8 @@ body{
     width: 100%;
 }
 
+/* navbar design start here */
+
 .navbar{
     background-color: #0c6168;
     
@@ -71,3 +73,62 @@ a{
     background-color: gray;
 }
 
+/* navbar design end here */
+
+/* profile start here  */
+
+.profile{
+    padding: 130px 10px;
+    position: relative;
+    text-align: center;
+}
+
+.profile .top-weather-icon {
+    width: 120px;
+    height: 120px;
+}
+
+.profile .bottom-weather-icon {
+    width: 120px;
+    height: 120px;
+}
+
+.profile .top-weather-icon{
+    position: absolute;
+    right: 70px;
+    top: 25px;
+    transition: transform 2s;
+
+}
+.profile .top-weather-icon:hover{
+   transform: rotate(360deg);
+
+}
+
+
+.profile-disc h1{
+     font-family: 'Satisgy', cursive;
+     font-size: 3rem;
+}
+.profile-disc p{
+    color: gray;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto 20px auto;
+}
+
+.profile .bottom-weather-icon{
+    position: absolute;
+    left: 60px;
+    bottom: 15px;
+    /* top: 25px; */
+    transition: transform 2s;
+
+}
+.profile .bottom-weather-icon:hover{
+   transform: rotate(360deg);
+
+}
+
+
+/* profile end here  */
