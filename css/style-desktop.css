@@ -68,17 +68,36 @@ body{
     position: absolute;
     right: 70px;
     top: 25px;
-    transition: transform 2s;
+    width: 120px;
+    transition: width 2s, transform 2s;
 
 }
 .profile .top-weather-icon:hover{
-   transform: rotate(360deg);
+   /* transform: rotate(360deg); */
+   width: 140px;
 
 }
 
+/* bottom top-weather-icon */
 
 .profile .bottom-weather-icon {
     width: 180px;
     height: 180px;
   
 }
+
+.profile .bottom-weather-icon{
+    position: absolute;
+    right: 70px;
+    top: 25px;
+    width: 120px;
+    transition: width 2s, transform 2s;
+
+}
+.profile .bottom-weather-icon:hover{
+   /* transform: rotate(360deg); */
+   width: 180px;
+
+}
+
+/* profile deign end here */

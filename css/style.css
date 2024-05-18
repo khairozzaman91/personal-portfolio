@@ -131,5 +131,10 @@ a{
 
 }
 
+.profile::after{
+    content: ' ';
+    display: table;
+    clear: both;
+}
 
 /* profile end here  */
