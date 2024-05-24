@@ -19,6 +19,17 @@ body{
     width: 100%;
 }
 
+h2{
+    font-size:1.5rem ;
+    text-align: center;
+}
+.dotter-hr{
+     border: dotted 6px white;
+     border-bottom: none;
+     margin: 20px auto;
+     width: 70px;
+}
+
 /* navbar design start here */
 
 .navbar{
@@ -138,3 +149,54 @@ a{
 }
 
 /* profile end here  */
+/* about section start here */
+
+
+
+.about-me{
+    background-color: #0c6168;
+    padding: 1% 7%;
+    color: white;
+    text-align: center;
+    font-family:'Montserrat', sans-serif;
+}
+
+
+
+.about-me-img img{
+   
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 260px;
+    width: 240px;
+}
+
+.aboutme-desc p{
+      text-align: center;
+}
+
+.aboutme-desc a{
+    font-size: 1.2rem;
+}
+
+
+
+.cv-button{
+    background-color: #052d2f;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+}
+
+.about-me::after{
+    clear: both;
+    display: table;
+    content: ' ';
+}
+
+/* about section end here */

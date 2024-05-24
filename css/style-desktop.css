@@ -101,3 +101,19 @@ body{
 }
 
 /* profile deign end here */
+
+/* about me design starts here */
+
+.about-me{
+  margin-top: 100px;
+}
+.about-me-img{
+    height: 280px;
+    width: 260;
+}
+
+
+.aboutme-desc{
+    text-align: left;
+}
+/* about me design end here */
