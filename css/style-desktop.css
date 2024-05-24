@@ -117,3 +117,26 @@ body{
     text-align: left;
 }
 /* about me design end here */
+
+
+
+
+
+/* footer section start  */
+
+
+
+
+.footer-menu {
+  margin-top: 12px;
+
+}
+
+.footer-menu a{
+    display: inline;
+    margin: 10px;
+}
+
+
+/* footer section end  */
+

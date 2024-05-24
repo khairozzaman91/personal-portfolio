@@ -200,3 +200,37 @@ a{
 }
 
 /* about section end here */
+
+/* footer section start  */
+
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+
+.footer-menu a{
+    display: block;
+    margin: 15px 0;
+    font-size: 1rem;
+
+}
+
+.footer-menu a:hover{
+    color: gray;
+
+}
+
+
+
+.footer::after{
+    clear: both;
+    display: table;
+    content: ' ';
+}
+/* footer section end  */
+
